@@ -54,6 +54,7 @@ add_message_files(
   SetPoint.msg
   Error.msg
   IsStable.msg
+  Orientation.msg
 )
 
 ## Generate services in the 'srv' folder

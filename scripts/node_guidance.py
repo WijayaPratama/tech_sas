@@ -11,7 +11,7 @@ class Subscriber():
         self.start_time = None
 
         self.set_point = SetPoint()
-        self.set_point.roll = 2
+        self.set_point.roll = 0
         self.set_point.pitch = 10
         self.set_point.yaw = 40
         self.set_point.depth = -0.4

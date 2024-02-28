@@ -103,7 +103,6 @@ class Subscriber():
         self.pid_heave = PID(1000, 50, 200)
         self.pid_roll = PID(5, 2, 3)
         self.pid_pitch = PID(3, 0, 1)
-
         self.pid_yaw = PID(1.7, 0, 0)
 
         self.pwm_roll = 0
