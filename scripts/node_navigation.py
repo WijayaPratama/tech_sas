@@ -36,7 +36,7 @@ class Subscriber():
         self.set_point = data
 
     def callback_sensor(self, data):
-        error_roll = self.set_point.roll + data.roll
+        error_roll = self.set_point.roll + dat.roll
         error_pitch = self.set_point.pitch - data.pitch
         error_yaw = self.calculate_compass_error(data.yaw, self.set_point.yaw)
         error_depth = self.set_point.depth - data.depth
